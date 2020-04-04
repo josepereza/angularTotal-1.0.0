@@ -2,6 +2,10 @@
 
 ![imagen](scrollspy.png)
 
+## ngx-page-scroll
+* https://www.npmjs.com/package/ngx-page-scroll
+* https://github.com/Nolanus/ngx-page-scroll
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server
