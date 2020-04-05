@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Playfair Display SC', serif;
+}
+.icon-block {
+    padding: 0 25px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+  .animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}
