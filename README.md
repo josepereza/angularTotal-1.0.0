@@ -17,7 +17,7 @@ Open angular.json file & add below styles & scripts.
   "scripts": [
          "./node_modules/materialize-css/dist/js/materialize.js"
        ]
-      
+  ``` 
 To install css and javascript script. To import the angular material theme and javascript scripts , include the given below code to your src > index.html file.
 ```
    <!doctype html>
