@@ -6,19 +6,20 @@
 ## materialize 
 ### How to use Materialize CSS in Angular 7-8-9
 Install the materialize-css node package in your application.
-...
+```
 npm install materialize-css --save
+```
 Open angular.json file & add below styles & scripts.
-...
+```
   "styles": [
          "./node_modules/materialize-css/dist/css/materialize.css",
        ],
   "scripts": [
          "./node_modules/materialize-css/dist/js/materialize.js"
        ]
-       ...
+      
 To install css and javascript script. To import the angular material theme and javascript scripts , include the given below code to your src > index.html file.
-...
+```
    <!doctype html>
 <html lang="en">
 <head>
@@ -39,7 +40,7 @@ To install css and javascript script. To import the angular material theme and j
  </script>
 </body>
 </html>
-...
+```
 ## ngx-page-scroll
 * https://www.npmjs.com/package/ngx-page-scroll
 * https://github.com/Nolanus/ngx-page-scroll
@@ -51,12 +52,12 @@ To install css and javascript script. To import the angular material theme and j
 
 ### Installation
 Install via npm:
-...
+```
 $ npm install animate.css --save
 or yarn:
-...
+```
 $ yarn add animate.css
-...
+```
 ### Usage
 To use animate.css in your website, simply drop the stylesheet into your document's <head>, and add the class animated to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
 
