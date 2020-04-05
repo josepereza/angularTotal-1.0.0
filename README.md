@@ -1,6 +1,6 @@
 # Materialize
 
-![imagen](scrollspy.png)
+![imagen](scrollspy2.png)
 
 ## ngx-page-scroll
 * https://www.npmjs.com/package/ngx-page-scroll
