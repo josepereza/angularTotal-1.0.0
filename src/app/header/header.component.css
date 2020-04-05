@@ -1,8 +1,0 @@
-.myscroll{
-    position: fixed;
-}
-
-.table-of-contents{
-    display: flex;
-    flex-direction: column;
-}
