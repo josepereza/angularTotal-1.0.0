@@ -8,4 +8,9 @@ body{
   .icon-block .material-icons {
       font-size: inherit;
   }
-  
+  .animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}
