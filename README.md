@@ -1,7 +1,45 @@
 # Materialize
 
 ![imagen](scrollspy2.png)
-
+## material-angular ( Tenemos que instalarlo si lo necesitamos )
+* https://material.angular.io/
+## materialize 
+### How to use Materialize CSS in Angular 7-8-9
+Install the materialize-css node package in your application.
+...
+npm install materialize-css --save
+Open angular.json file & add below styles & scripts.
+...
+  "styles": [
+         "./node_modules/materialize-css/dist/css/materialize.css",
+       ],
+  "scripts": [
+         "./node_modules/materialize-css/dist/js/materialize.js"
+       ]
+       ...
+To install css and javascript script. To import the angular material theme and javascript scripts , include the given below code to your src > index.html file.
+...
+   <!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Borrar</title>
+ <base href="/">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/x-icon" href="favicon.ico">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+ <app-root></app-root>
+ <script>
+ document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.sidenav');
+   var instances = M.Sidenav.init(elems, {});
+ });
+ </script>
+</body>
+</html>
+...
 ## ngx-page-scroll
 * https://www.npmjs.com/package/ngx-page-scroll
 * https://github.com/Nolanus/ngx-page-scroll
